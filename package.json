@@ -1,0 +1,28 @@
+{
+  "name": "notes-js",
+  "version": "1.1.0",
+  "description": "Users can add, edit and remove notes.",
+  "main": "index.js",
+  "homepage": "https://tetianabron.github.io/notes-js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /notes-js/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetianabron/notes-js.git"
+  },
+  "keywords": [],
+  "author": "Tetiana Bronitska <tetiana.bron@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tetianabron/notes-js/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  }
+}
